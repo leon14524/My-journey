@@ -4,6 +4,7 @@
     font-family: 'Mulish', sans-serif;
    
 }
+/* header styles */
 
 header{
     width: 80%;
@@ -45,13 +46,79 @@ nav{
     font-weight: 700;
     color: var(--Dark-02, #424247)
  }
+ /* <!-- Explore Your Travel section styles --> */
+ main{
+     width: 80%; 
+   
+ }
+  .container{
+    
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 970px;
+    height: 500px;
+    border-radius: 16px;
+     margin-left: 120px; 
+     text-align: center;
+   
+  }
+  .center-textaria{
+ 
+  }
+  .inoput-class{
+    /* color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px; */
+
+  }
+  .center-textaria{
+    height: 300px;
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 800;
+    padding-top: 35px; 
+  }
+  .travle-description{
+ color: #FFF;
+text-align: center;
+font-size: 1rem;
+font-weight: 400;
+width: 400px;
+margin-left: 250px;
+  }
+
+  .input-class{
+ color: rgba(19, 19, 24, 0.50);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+display: inline-flex;
+padding: 12px;
+align-items: flex-start;
+gap: 24px;
+border-radius: 8px;
+  }
+#color{
+  background-color:#FF5400;
+  color: #FFF;
+  margin-bottom: 300px;
+}
 
 
  /* respnsive styles */
 
  /* mobile responsive */
  @media screen and (max-width:600px) {
- 
+  main{
+    width: 100%; 
+    margin-top: 20px;
+  
+}
     .nav-title{
         margin: 14px;
     }
@@ -61,7 +128,36 @@ nav{
     nav > ul > li{
         margin: 5px;
     }
-    nav img{
+    nav img,{
         width: 60%;
     }
+    .container{
+    
+      background-position: center;
+      /* background-attachment: fixed; */
+      width: 100%;
+      height: 20%;
+      border-radius: 15px;
+    
+       margin-left: 30px; 
+    }
+    .travel-title{
+      font-size: 30px;
+    
  }
+ .travle-description{
+ width: 200px;
+ margin-right: 50px;
+ margin-left: 0;
+ text-align: center;
+ }
+ .input-class{
+ font-size: 6px;
+ font-weight: 400;
+ display: inline-flex;
+ padding: 12px;
+ align-items: flex-start;
+ gap: 24px;
+ border-radius: 8px;
+   }
+}
